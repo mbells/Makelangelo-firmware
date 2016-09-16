@@ -43,15 +43,15 @@
 
 
 // which motor is on which pin?
-#define M1_PIN          (1)
-#define M2_PIN          (2)
+#define M1_PIN          (2)
+#define M2_PIN          (1)
 
 // which limit switch is on which pin?
 #define L_PIN           (3)
 #define R_PIN           (5)
 
 // Marginally Clever steppers are 400 steps per turn.
-#define STEPPER_STEPS_PER_TURN    (400)
+#define STEPPER_STEPS_PER_TURN    (200)
 // We don't use microstepping on the AMS shield.
 #define MICROSTEPPING_MULTIPLIER  (2)
 #define STEPS_PER_TURN            (STEPPER_STEPS_PER_TURN*MICROSTEPPING_MULTIPLIER)
